@@ -24,5 +24,5 @@ clean:
 	@rm -r $(OUT_DIR)
 
 doc:
-	@mkdir -p $(OUT_DIR)
+	@mkdir -p $(OUT_DIR)/doc
 	@doxygen doxyfile
